@@ -1,0 +1,35 @@
+body {
+
+    background: #003;
+
+    color: white;
+    font-size: 16px;
+
+}
+
+h1 {
+
+    color: darkblue;
+    font-size: 0.5em;
+
+    font-style: italic;
+}
+
+.container {
+
+    /* flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ownClass1 {
+
+    display: block;
+    width: 200px;
+
+    height: 200px;
+
+    background-color: darkgreen;
+}
