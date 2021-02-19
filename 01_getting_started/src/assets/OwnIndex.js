@@ -17,12 +17,12 @@ function fnOwnIndex() {
     //toUpper(sName);
 
     // ~~~~~~~ 06 arr push( ) ~~~~~~~ //
-    const arrSchedule = [
+   /*  const arrSchedule = [
         'Wake up',
         'Eat',
         'Film a video',
         'sleep'
-    ];
+    ]; */
    /*  arrSchedule.push('String added at the end of arr');
     console.log(arrSchedule);
     arrSchedule.pop();
@@ -64,10 +64,20 @@ function fnOwnIndex() {
    ];
    var indx;
    for (indx of arrNames){
-       console.log(indx);
-   }
- 
- 
+        console.log(`index content is: ${indx}`);
+        if(indx === 'Maria'){
+            console.log(`Maria is the arr`);
+            break;
+        }
+   } 
+  
+
+
+
+
+
+
+
 
     return (
 
@@ -78,6 +88,7 @@ function fnOwnIndex() {
                 <h2>Area OwnIndex.js</h2>
                 <div className='ownClass1' id='div1'>Own div</div> {/* className instead of class */}
 
+               
             </div>
         </div>
     )
